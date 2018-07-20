@@ -1,4 +1,4 @@
-package org.github.caishijun;
+package org.github.caishijun.util;
 
 import org.apache.kafka.clients.producer.KafkaProducer;
 import org.apache.kafka.common.serialization.StringSerializer;

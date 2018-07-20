@@ -2,12 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b18979ad-2db7-4248-9bf7-f284308744aa" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/kafka-client-test001/src/main/java/org/github/caishijun/CreateKafkaProducers1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kafka-client-test001/src/main/java/org/github/caishijun/SendMessageToKafka2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kafka-client-test001/src/main/java/org/github/caishijun/UsingAvroSerializerInKafka3.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kafka-client-test001/kafka-client-test001.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/kafka-client-test001/src/main/java/org/github/caishijun/CreateKafkaProducers1.java" beforeDir="false" afterPath="$PROJECT_DIR$/kafka-client-test001/src/main/java/org/github/caishijun/util/CreateKafkaProducers1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kafka-client-test001/src/main/java/org/github/caishijun/SendMessageToKafka2.java" beforeDir="false" afterPath="$PROJECT_DIR$/kafka-client-test001/src/main/java/org/github/caishijun/util/SendMessageToKafka2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kafka-client-test001/src/main/java/org/github/caishijun/UsingAvroSerializerInKafka3.java" beforeDir="false" afterPath="$PROJECT_DIR$/kafka-client-test001/src/main/java/org/github/caishijun/util/UsingAvroSerializerInKafka3.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -20,12 +19,12 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="CreateKafkaProducers1.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/kafka-client-test001/src/main/java/org/github/caishijun/CreateKafkaProducers1.java">
+        <entry file="file://$PROJECT_DIR$/kafka-client-test001/src/main/java/org/github/caishijun/util/CreateKafkaProducers1.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="504">
-              <caret line="24" column="54" selection-start-line="24" selection-start-column="54" selection-end-line="25" selection-end-column="48" />
+            <state relative-caret-position="672">
+              <caret line="32" column="5" lean-forward="true" selection-end-line="35" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -34,39 +33,24 @@
         </entry>
       </file>
       <file leaf-file-name="UsingAvroSerializerInKafka3.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/kafka-client-test001/src/main/java/org/github/caishijun/UsingAvroSerializerInKafka3.java">
+        <entry file="file://$PROJECT_DIR$/kafka-client-test001/src/main/java/org/github/caishijun/util/UsingAvroSerializerInKafka3.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="294">
-              <caret line="14" column="75" selection-start-line="14" selection-start-column="75" selection-end-line="14" selection-end-column="75" />
+            <state relative-caret-position="672">
+              <caret line="32" lean-forward="true" selection-start-line="32" selection-end-line="32" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#943#961#0" expanded="true" />
+                <element signature="e#1189#1207#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SendMessageToKafka2.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/kafka-client-test001/src/main/java/org/github/caishijun/SendMessageToKafka2.java">
+      <file leaf-file-name="CreateKafkaConsumers.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/kafka-client-test001/src/main/java/org/github/caishijun/util/CreateKafkaConsumers.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="525">
-              <caret line="39" column="7" lean-forward="true" selection-start-line="39" selection-start-column="7" selection-end-line="39" selection-end-column="7" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#361#377#0" expanded="true" />
-                <element signature="e#662#678#0" expanded="true" />
-                <element signature="e#1187#1203#0" expanded="true" />
-                <element signature="e#1403#1597#0" expanded="true" />
-                <element signature="e#1596#1597#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="686">
-              <caret line="39" column="21" selection-end-line="43" selection-end-column="10" />
+            <state relative-caret-position="168">
+              <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
             </state>
           </provider>
         </entry>
@@ -94,8 +78,12 @@
         <option value="$PROJECT_DIR$/kafka-client-test001/src/main/java/org/github/caishijun/CreateKafkaProducers.java" />
         <option value="$PROJECT_DIR$/kafka-client-test001/src/main/java/org/github/caishijun/SendMessageToKafka.java" />
         <option value="$PROJECT_DIR$/kafka-client-test001/src/main/java/org/github/caishijun/SendMessageToKafka2.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/kafka-client-test001/src/main/java/org/github/caishijun/UsingAvroSerializerInKafka3.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/kafka-client-test001/pom.xml" />
+        <option value="$PROJECT_DIR$/kafka-client-test001/src/main/java/org/github/caishijun/entity/Customer.java" />
+        <option value="$PROJECT_DIR$/kafka-client-test001/src/main/java/org/github/caishijun/util/UsingAvroSerializerInKafka3.java" />
+        <option value="$PROJECT_DIR$/kafka-client-test001/src/main/java/org/github/caishijun/util/CreateKafkaConsumers.java" />
       </list>
     </option>
   </component>
@@ -115,6 +103,7 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -159,6 +148,26 @@
             </path>
             <path>
               <item name="kafka-learn-test001" type="b2602c69:ProjectViewProjectNode" />
+              <item name="kafka-learn-test001" type="462c0819:PsiDirectoryNode" />
+              <item name="kafka-client-test001" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="caishijun" type="462c0819:PsiDirectoryNode" />
+              <item name="entity" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="kafka-learn-test001" type="b2602c69:ProjectViewProjectNode" />
+              <item name="kafka-learn-test001" type="462c0819:PsiDirectoryNode" />
+              <item name="kafka-client-test001" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="caishijun" type="462c0819:PsiDirectoryNode" />
+              <item name="util" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="kafka-learn-test001" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
           </expand>
@@ -166,7 +175,6 @@
         </subPane>
       </pane>
       <pane id="AndroidView" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -253,43 +261,44 @@
       <option name="presentableId" value="Default" />
       <updated>1532050596122</updated>
       <workItem from="1532050598739" duration="8806000" />
+      <workItem from="1532077656642" duration="1061000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8806000" />
+    <option name="totallyTimeSpent" value="9867000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info anchor="right" id="Palette" />
+      <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Palette&#9;" />
-      <window_info id="Image Layers" />
-      <window_info anchor="right" id="Capture Analysis" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="right" id="Maven Projects" />
-      <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
+      <window_info anchor="right" id="Palette&#9;" order="3" />
+      <window_info id="Image Layers" order="2" />
+      <window_info anchor="right" id="Capture Analysis" order="3" />
+      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
+      <window_info anchor="right" id="Maven Projects" order="3" />
+      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info id="Capture Tool" />
-      <window_info id="Designer" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info id="Capture Tool" order="2" />
+      <window_info id="Designer" order="2" />
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
-      <window_info anchor="right" id="Database" />
-      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="right" id="Database" order="3" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info id="UI Designer" />
-      <window_info anchor="right" id="Theme Preview" />
+      <window_info id="UI Designer" order="2" />
+      <window_info anchor="right" id="Theme Preview" order="3" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info id="Favorites" side_tool="true" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -299,13 +308,42 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/kafka-learn-test001.iml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/kafka-client-test001/kafka-client-test001.iml">
+    <entry file="file://$PROJECT_DIR$/kafka-client-test001/src/main/java/org/github/caishijun/util/CreateKafkaProducers1.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="12" column="9" lean-forward="true" selection-start-line="12" selection-start-column="9" selection-end-line="12" selection-end-column="9" />
+        <state relative-caret-position="441">
+          <caret line="24" column="54" selection-start-line="24" selection-start-column="54" selection-end-line="25" selection-end-column="48" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kafka-client-test001/src/main/java/org/github/caishijun/util/SendMessageToKafka2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="714">
+          <caret line="39" column="7" lean-forward="true" selection-start-line="39" selection-start-column="7" selection-end-line="39" selection-end-column="7" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="819">
+          <caret line="39" column="21" selection-end-line="43" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kafka-client-test001/src/main/java/org/github/caishijun/util/UsingAvroSerializerInKafka3.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="75" selection-start-line="14" selection-start-column="75" selection-end-line="14" selection-end-column="75" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#943#961#0" expanded="true" />
+            <element signature="e#1189#1207#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -323,51 +361,81 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/kafka-client-test001/pom.xml">
+    <entry file="file://$PROJECT_DIR$/kafka-client-test001/kafka-client-test001.iml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="12" selection-start-line="12" selection-end-line="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/kafka-client-test001/src/main/java/org/github/caishijun/CreateKafkaProducers1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="504">
-          <caret line="24" column="54" selection-start-line="24" selection-start-column="54" selection-end-line="25" selection-end-column="48" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="21">
+          <caret line="1" column="9" selection-start-line="1" selection-start-column="9" selection-end-line="1" selection-end-column="9" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="686">
-          <caret line="39" column="21" selection-end-line="43" selection-end-column="10" />
+        <state relative-caret-position="210">
+          <caret line="10" column="45" selection-start-line="10" selection-start-column="45" selection-end-line="10" selection-end-column="45" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/kafka-client-test001/src/main/java/org/github/caishijun/SendMessageToKafka2.java">
+    <entry file="file://$PROJECT_DIR$/kafka-learn-test001.iml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kafka-client-test001/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="525">
-          <caret line="39" column="7" lean-forward="true" selection-start-line="39" selection-start-column="7" selection-end-line="39" selection-end-column="7" />
+        <state relative-caret-position="168">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kafka-client-test001/src/main/java/org/github/caishijun/util/SendMessageToKafka2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="504">
+          <caret line="24" column="13" lean-forward="true" selection-end-line="55" selection-end-column="1" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#361#377#0" expanded="true" />
-            <element signature="e#662#678#0" expanded="true" />
-            <element signature="e#1187#1203#0" expanded="true" />
-            <element signature="e#1403#1597#0" expanded="true" />
-            <element signature="e#1596#1597#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/kafka-client-test001/src/main/java/org/github/caishijun/UsingAvroSerializerInKafka3.java">
+    <entry file="file://$PROJECT_DIR$/kafka-client-test001/src/main/java/org/github/caishijun/entity/Customer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="294">
-          <caret line="14" column="75" selection-start-line="14" selection-start-column="75" selection-end-line="14" selection-end-column="75" />
+        <state relative-caret-position="252">
+          <caret line="12" column="32" lean-forward="true" selection-start-line="12" selection-start-column="32" selection-end-line="12" selection-end-column="32" />
+          <folding>
+            <element signature="e#335#336#0" expanded="true" />
+            <element signature="e#384#385#0" expanded="true" />
+            <element signature="e#428#429#0" expanded="true" />
+            <element signature="e#467#468#0" expanded="true" />
+            <element signature="e#502#503#0" expanded="true" />
+            <element signature="e#558#559#0" expanded="true" />
+            <element signature="e#606#607#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kafka-client-test001/src/main/java/org/github/caishijun/util/CreateKafkaConsumers.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kafka-client-test001/src/main/java/org/github/caishijun/util/CreateKafkaProducers1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="672">
+          <caret line="32" column="5" lean-forward="true" selection-end-line="35" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kafka-client-test001/src/main/java/org/github/caishijun/util/UsingAvroSerializerInKafka3.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="672">
+          <caret line="32" lean-forward="true" selection-start-line="32" selection-end-line="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#943#961#0" expanded="true" />
+            <element signature="e#1189#1207#0" expanded="true" />
           </folding>
         </state>
       </provider>
