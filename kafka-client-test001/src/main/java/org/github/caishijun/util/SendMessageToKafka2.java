@@ -1,19 +1,24 @@
 package org.github.caishijun.util;
 
-import org.apache.kafka.clients.producer.Callback;
 import org.apache.kafka.clients.producer.KafkaProducer;
 import org.apache.kafka.clients.producer.ProducerRecord;
 import org.apache.kafka.clients.producer.RecordMetadata;
+import org.apache.kafka.common.serialization.StringSerializer;
 
+import java.util.Properties;
 import java.util.concurrent.ExecutionException;
 
 public class SendMessageToKafka2 {
 
-    /**
-     * 最简单的消息发送方式
-     * @param producer
-     */
-    public static void sendMessageToKafka(KafkaProducer producer) {
+    //最简单的消息发送方式
+    public static void sendMessageToKafka() {
+
+        Properties kafkaPros = new Properties();
+        kafkaPros.put("bootstrap.servers","192.168.228.132:9092,192.168.228.133:9092,192.168.228.134:9092");
+        kafkaPros.put("key.serializer",StringSerializer.class.getName());
+        kafkaPros.put("value.serializer",StringSerializer.class.getName());
+
+        KafkaProducer producer = new KafkaProducer(kafkaPros);
 
         ProducerRecord<String, String> record = new ProducerRecord<String, String>("CustomerCountry", "Precision Producer", "France");
 
@@ -21,11 +26,16 @@ public class SendMessageToKafka2 {
 
     }
 
-    /**
-     * 同步发送消息
-     * @param producer
-     */
-    public static void synchronousSendMessage(KafkaProducer producer) {
+    //同步发送消息
+    public static void synchronousSendMessage() {
+
+        Properties kafkaPros = new Properties();
+        kafkaPros.put("bootstrap.servers","192.168.228.132:9092,192.168.228.133:9092,192.168.228.134:9092");
+        kafkaPros.put("key.serializer",StringSerializer.class.getName());
+        kafkaPros.put("value.serializer",StringSerializer.class.getName());
+
+        KafkaProducer producer = new KafkaProducer(kafkaPros);
+
         ProducerRecord<String, String> record = new ProducerRecord<String, String>("CustomerCountry", "Precision Producer", "France");
 
         try {
@@ -37,11 +47,16 @@ public class SendMessageToKafka2 {
         }
     }
 
-    /**
-     * 异步发送消息
-     * @param producer
-     */
-    public static void asynchronousSendMessage(KafkaProducer producer) {
+    //异步发送消息
+    public static void asynchronousSendMessage() {
+
+        Properties kafkaPros = new Properties();
+        kafkaPros.put("bootstrap.servers","192.168.228.132:9092,192.168.228.133:9092,192.168.228.134:9092");
+        kafkaPros.put("key.serializer",StringSerializer.class.getName());
+        kafkaPros.put("value.serializer",StringSerializer.class.getName());
+
+        KafkaProducer producer = new KafkaProducer(kafkaPros);
+
         ProducerRecord<String, String> record = new ProducerRecord<String, String>("CustomerCountry", "Precision Producer", "France");
 
         producer.send(record, new org.apache.kafka.clients.producer.Callback() {
@@ -52,5 +67,4 @@ public class SendMessageToKafka2 {
             }
         });
     }
-
 }
